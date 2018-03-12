@@ -1,4 +1,4 @@
-package task;
+package obstacle.task;
 
 import lejos.hardware.motor.EV3LargeRegulatedMotor;
 import lejos.hardware.port.MotorPort;

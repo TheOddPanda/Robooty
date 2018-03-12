@@ -1,9 +1,11 @@
-import task.DriverTask;
-import task.TouchTask;
-import task.UltraSoundTask;
+package obstacle;
 
-import static util.ThreadUtil.interruptIfAlive;
-import static util.ThreadUtil.startThreads;
+import obstacle.task.DriverTask;
+import obstacle.task.TouchTask;
+import obstacle.task.UltraSoundTask;
+
+import static obstacle.util.ThreadUtil.interruptIfAlive;
+import static obstacle.util.ThreadUtil.startThreads;
 
 public class Main {
 

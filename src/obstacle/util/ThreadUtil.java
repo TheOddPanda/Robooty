@@ -1,4 +1,4 @@
-package util;
+package obstacle.util;
 
 public class ThreadUtil {
     public static void interruptIfAlive(Thread thread) {
